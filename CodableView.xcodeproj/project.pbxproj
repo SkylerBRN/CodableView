@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		E4B4653428C7E062003C30D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4653328C7E062003C30D3 /* AppDelegate.swift */; };
 		E4B4653628C7E062003C30D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4653528C7E062003C30D3 /* SceneDelegate.swift */; };
-		E4B4653828C7E062003C30D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4653728C7E062003C30D3 /* ViewController.swift */; };
+		E4B4653828C7E062003C30D3 /* MonarchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4653728C7E062003C30D3 /* MonarchViewController.swift */; };
 		E4B4653B28C7E062003C30D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B4653928C7E062003C30D3 /* Main.storyboard */; };
 		E4B4653D28C7E067003C30D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B4653C28C7E067003C30D3 /* Assets.xcassets */; };
 		E4B4654028C7E067003C30D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B4653E28C7E067003C30D3 /* LaunchScreen.storyboard */; };
 		E4B4654B28C7E068003C30D3 /* CodableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4654A28C7E068003C30D3 /* CodableViewTests.swift */; };
 		E4B4655528C7E068003C30D3 /* CodableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4655428C7E068003C30D3 /* CodableViewUITests.swift */; };
 		E4B4655728C7E068003C30D3 /* CodableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4655628C7E068003C30D3 /* CodableViewUITestsLaunchTests.swift */; };
+		E4B4656428C7E115003C30D3 /* Monarch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4656328C7E115003C30D3 /* Monarch.swift */; };
+		E4B4656628C7E168003C30D3 /* MonarchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4656528C7E168003C30D3 /* MonarchCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		E4B4653028C7E062003C30D3 /* CodableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B4653328C7E062003C30D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4B4653528C7E062003C30D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4B4653728C7E062003C30D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4B4653728C7E062003C30D3 /* MonarchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonarchViewController.swift; sourceTree = "<group>"; };
 		E4B4653A28C7E062003C30D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4B4653C28C7E067003C30D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4B4653F28C7E067003C30D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		E4B4655028C7E068003C30D3 /* CodableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B4655428C7E068003C30D3 /* CodableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableViewUITests.swift; sourceTree = "<group>"; };
 		E4B4655628C7E068003C30D3 /* CodableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4B4656328C7E115003C30D3 /* Monarch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monarch.swift; sourceTree = "<group>"; };
+		E4B4656528C7E168003C30D3 /* MonarchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonarchCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,12 @@
 			children = (
 				E4B4653328C7E062003C30D3 /* AppDelegate.swift */,
 				E4B4653528C7E062003C30D3 /* SceneDelegate.swift */,
-				E4B4653728C7E062003C30D3 /* ViewController.swift */,
+				E4B4656328C7E115003C30D3 /* Monarch.swift */,
+				E4B4656528C7E168003C30D3 /* MonarchCell.swift */,
+				E4B4653728C7E062003C30D3 /* MonarchViewController.swift */,
+				E4B4653E28C7E067003C30D3 /* LaunchScreen.storyboard */,
 				E4B4653928C7E062003C30D3 /* Main.storyboard */,
 				E4B4653C28C7E067003C30D3 /* Assets.xcassets */,
-				E4B4653E28C7E067003C30D3 /* LaunchScreen.storyboard */,
 				E4B4654128C7E067003C30D3 /* Info.plist */,
 			);
 			path = CodableView;
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B4653828C7E062003C30D3 /* ViewController.swift in Sources */,
+				E4B4656628C7E168003C30D3 /* MonarchCell.swift in Sources */,
+				E4B4656428C7E115003C30D3 /* Monarch.swift in Sources */,
+				E4B4653828C7E062003C30D3 /* MonarchViewController.swift in Sources */,
 				E4B4653428C7E062003C30D3 /* AppDelegate.swift in Sources */,
 				E4B4653628C7E062003C30D3 /* SceneDelegate.swift in Sources */,
 			);
